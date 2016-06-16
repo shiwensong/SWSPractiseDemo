@@ -10,4 +10,6 @@
 
 @interface FirstViewController : BaseViewController
 
+@property (copy, nonatomic) NSString *number;
+
 @end

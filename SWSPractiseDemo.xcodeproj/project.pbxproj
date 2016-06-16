@@ -72,6 +72,15 @@
 		BA6587AA1D12F09900E4B711 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6587A61D12F09900E4B711 /* FirstViewController.m */; };
 		BA6587AB1D12F09900E4B711 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6587A61D12F09900E4B711 /* FirstViewController.m */; };
 		BA6587AC1D12F09900E4B711 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6587A61D12F09900E4B711 /* FirstViewController.m */; };
+		BAC57B8A1D12FD62004AC0F4 /* HYBAnimationClock.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC57B851D12FD62004AC0F4 /* HYBAnimationClock.m */; };
+		BAC57B8B1D12FD62004AC0F4 /* HYBAnimationClock.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC57B851D12FD62004AC0F4 /* HYBAnimationClock.m */; };
+		BAC57B8C1D12FD62004AC0F4 /* HYBAnimationClock.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC57B851D12FD62004AC0F4 /* HYBAnimationClock.m */; };
+		BAC57B8D1D12FD62004AC0F4 /* HYBClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC57B871D12FD62004AC0F4 /* HYBClockView.m */; };
+		BAC57B8E1D12FD62004AC0F4 /* HYBClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC57B871D12FD62004AC0F4 /* HYBClockView.m */; };
+		BAC57B8F1D12FD62004AC0F4 /* HYBClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC57B871D12FD62004AC0F4 /* HYBClockView.m */; };
+		BAC57B901D12FD62004AC0F4 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC57B891D12FD62004AC0F4 /* clock.png */; };
+		BAC57B911D12FD62004AC0F4 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC57B891D12FD62004AC0F4 /* clock.png */; };
+		BAC57B921D12FD62004AC0F4 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC57B891D12FD62004AC0F4 /* clock.png */; };
 		BCE5D48411C2206B94DDD191 /* libPods-SWSPractiseDemo_First.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 911D34C2880AC8763E9F5FDE /* libPods-SWSPractiseDemo_First.a */; };
 /* End PBXBuildFile section */
 
@@ -128,6 +137,11 @@
 		BA6587A31D12F09900E4B711 /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
 		BA6587A51D12F09900E4B711 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		BA6587A61D12F09900E4B711 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BAC57B841D12FD62004AC0F4 /* HYBAnimationClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBAnimationClock.h; sourceTree = "<group>"; };
+		BAC57B851D12FD62004AC0F4 /* HYBAnimationClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBAnimationClock.m; sourceTree = "<group>"; };
+		BAC57B861D12FD62004AC0F4 /* HYBClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBClockView.h; sourceTree = "<group>"; };
+		BAC57B871D12FD62004AC0F4 /* HYBClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBClockView.m; sourceTree = "<group>"; };
+		BAC57B891D12FD62004AC0F4 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
 		C176DC1CD1BF58876567ABA6 /* Pods-SWSPractiseDemo_First.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWSPractiseDemo_First.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWSPractiseDemo_First/Pods-SWSPractiseDemo_First.debug.xcconfig"; sourceTree = "<group>"; };
 		D401743E781A70BEB2B222C5 /* Pods-SWSPractiseDemo_Second.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWSPractiseDemo_Second.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWSPractiseDemo_Second/Pods-SWSPractiseDemo_Second.release.xcconfig"; sourceTree = "<group>"; };
 		D69D319E79B06707023B2C09 /* Pods-SWSPractiseDemo_Third.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWSPractiseDemo_Third.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWSPractiseDemo_Third/Pods-SWSPractiseDemo_Third.release.xcconfig"; sourceTree = "<group>"; };
@@ -318,8 +332,29 @@
 			children = (
 				BA6587A51D12F09900E4B711 /* FirstViewController.h */,
 				BA6587A61D12F09900E4B711 /* FirstViewController.m */,
+				BAC57B831D12FD62004AC0F4 /* Class */,
+				BAC57B881D12FD62004AC0F4 /* image */,
 			);
 			path = FisrtDemo;
+			sourceTree = "<group>";
+		};
+		BAC57B831D12FD62004AC0F4 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				BAC57B841D12FD62004AC0F4 /* HYBAnimationClock.h */,
+				BAC57B851D12FD62004AC0F4 /* HYBAnimationClock.m */,
+				BAC57B861D12FD62004AC0F4 /* HYBClockView.h */,
+				BAC57B871D12FD62004AC0F4 /* HYBClockView.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		BAC57B881D12FD62004AC0F4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				BAC57B891D12FD62004AC0F4 /* clock.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,6 +468,7 @@
 			files = (
 				BA6586CE1D12ED4800E4B711 /* Main.storyboard in Resources */,
 				BA6586BC1D12ED4800E4B711 /* Assets.xcassets in Resources */,
+				BAC57B901D12FD62004AC0F4 /* clock.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +478,7 @@
 			files = (
 				BA6586CF1D12ED4800E4B711 /* Main.storyboard in Resources */,
 				BA6586BD1D12ED4800E4B711 /* Assets.xcassets in Resources */,
+				BAC57B911D12FD62004AC0F4 /* clock.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +488,7 @@
 			files = (
 				BA6586D01D12ED4800E4B711 /* Main.storyboard in Resources */,
 				BA6586BE1D12ED4800E4B711 /* Assets.xcassets in Resources */,
+				BAC57B921D12FD62004AC0F4 /* clock.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,9 +647,11 @@
 				BA6587A71D12F09900E4B711 /* FirstTableViewController.m in Sources */,
 				BA0D683D1D12F339004ED031 /* ViewController.m in Sources */,
 				BA0D682B1D12F339004ED031 /* AppDelegate.m in Sources */,
+				BAC57B8D1D12FD62004AC0F4 /* HYBClockView.m in Sources */,
 				BA0D68311D12F339004ED031 /* TempTableViewController.m in Sources */,
 				BA6587941D12ED4800E4B711 /* MGOImageView.m in Sources */,
 				BA6586C51D12ED4800E4B711 /* OprationTools.m in Sources */,
+				BAC57B8A1D12FD62004AC0F4 /* HYBAnimationClock.m in Sources */,
 				BA0D68371D12F339004ED031 /* TestViewController.m in Sources */,
 				BA6587971D12ED4800E4B711 /* UIView+MGO.m in Sources */,
 				BA6586C81D12ED4800E4B711 /* UIViewController+addFresh.m in Sources */,
@@ -635,9 +675,11 @@
 				BA6587A81D12F09900E4B711 /* FirstTableViewController.m in Sources */,
 				BA0D683E1D12F339004ED031 /* ViewController.m in Sources */,
 				BA0D682C1D12F339004ED031 /* AppDelegate.m in Sources */,
+				BAC57B8E1D12FD62004AC0F4 /* HYBClockView.m in Sources */,
 				BA0D68321D12F339004ED031 /* TempTableViewController.m in Sources */,
 				BA6587951D12ED4800E4B711 /* MGOImageView.m in Sources */,
 				BA6586C61D12ED4800E4B711 /* OprationTools.m in Sources */,
+				BAC57B8B1D12FD62004AC0F4 /* HYBAnimationClock.m in Sources */,
 				BA0D68381D12F339004ED031 /* TestViewController.m in Sources */,
 				BA6587981D12ED4800E4B711 /* UIView+MGO.m in Sources */,
 				BA6586C91D12ED4800E4B711 /* UIViewController+addFresh.m in Sources */,
@@ -661,9 +703,11 @@
 				BA6587A91D12F09900E4B711 /* FirstTableViewController.m in Sources */,
 				BA0D683F1D12F339004ED031 /* ViewController.m in Sources */,
 				BA0D682D1D12F339004ED031 /* AppDelegate.m in Sources */,
+				BAC57B8F1D12FD62004AC0F4 /* HYBClockView.m in Sources */,
 				BA0D68331D12F339004ED031 /* TempTableViewController.m in Sources */,
 				BA6587961D12ED4800E4B711 /* MGOImageView.m in Sources */,
 				BA6586C71D12ED4800E4B711 /* OprationTools.m in Sources */,
+				BAC57B8C1D12FD62004AC0F4 /* HYBAnimationClock.m in Sources */,
 				BA0D68391D12F339004ED031 /* TestViewController.m in Sources */,
 				BA6587991D12ED4800E4B711 /* UIView+MGO.m in Sources */,
 				BA6586CA1D12ED4800E4B711 /* UIViewController+addFresh.m in Sources */,

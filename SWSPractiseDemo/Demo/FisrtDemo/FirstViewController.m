@@ -7,8 +7,13 @@
 //
 
 #import "FirstViewController.h"
+#import "HYBClockView.h"
+#import "HYBAnimationClock.h"
 
 @interface FirstViewController ()
+
+@property (nonatomic, strong) HYBClockView *clockView;
+
 
 @end
 
@@ -16,10 +21,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"测试Demo1";
+    NSString *titleString = [NSString stringWithFormat:@"时钟转动%@", self.number];
+    self.title = titleString;
 
 
+    CGFloat x = ([UIScreen mainScreen].bounds.size.width - 200) / 2;
+    self.clockView = [[HYBClockView alloc] initWithFrame:CGRectMake(x, 60, 200, 200)
+                                               imageName:@"clock"];
+      [self.view addSubview:self.clockView];
     
+    HYBAnimationClock *aniClockView = [[HYBAnimationClock alloc] initWithFrame:CGRectMake(x, 280, 200, 200)
+                                                                     imageName:@"clock"];
+    
+    [self.view addSubview:aniClockView];
+    
+//    [self.clockView releaseTimer];
+    //  [self.clockView removeFromSuperview];
+//    self.clockView = nil;
     
     
 }

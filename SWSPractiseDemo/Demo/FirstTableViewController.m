@@ -25,7 +25,7 @@
 
     self.dataSourceArray = @[@"FirstViewController",@"FirstViewController"];
     self.dataSourceDictionary =  @{
-                                  @"0" : @"第一个demo",
+                                  @"0" : @"时钟转动有动画和没有动画",
                                   @"1" : @"第二个demo",
                                   };
     
@@ -87,10 +87,12 @@
 #pragma mark - UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
-    NSString *className = self.dataSourceArray[indexPath.section];
+    NSString *indexString = [NSString stringWithFormat:@"%ld", indexPath.section];
+    NSString *className = self.dataSourceArray[indexString.integerValue];
     Class class = NSClassFromString(className);
-    [self.navigationController pushViewController:[[class alloc] init] animated:YES];
+    id viewController = [[class alloc] init];
+    [viewController setValue:indexString forKey:@"number"];
+    [self.navigationController pushViewController:viewController animated:YES];
     
 }
 
