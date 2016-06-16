@@ -1,0 +1,51 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+def podsAll
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '7.0'
+
+
+pod 'MLTransition', '~> 2.1.0'
+pod 'SDWebImage', '~> 3.7.6'
+
+pod 'BlocksKit','~>2.2.5'
+
+pod 'ReactiveCocoa', '~> 2.5'
+
+pod 'Masonry', '~> 1.0.1'
+
+pod 'MJRefresh' ,'~> 3.1.0'
+
+
+pod 'JSONModel', '~> 1.1.0'
+pod 'AFNetworking', '~> 2.6.3'
+pod 'pop', '~> 1.0'
+pod 'HTCopyableLabel', '~> 0.0.7'
+
+
+pod 'MBProgressHUD', '~> 0.9.2'
+
+pod 'IQKeyboardManager','~>3.3.4'
+
+
+end
+#end
+
+#link_with 'SWSPractiseDemo_First’,’SWSPractiseDemo_Second’,’SWSPractiseDemo_Third’
+
+
+target 'SWSPractiseDemo_First' do
+	podsAll
+end
+
+target 'SWSPractiseDemo_Second' do
+	podsAll
+end
+
+target 'SWSPractiseDemo_Third' do
+	podsAll
+end
+

@@ -1,0 +1,87 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - HTCopyableLabel (0.0.7)
+  - IQKeyboardManager (3.3.7)
+  - JSONModel (1.1.2)
+  - Masonry (1.0.1)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.0)
+  - MLTransition (2.1.0)
+  - pop (1.0.9)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6.3)
+  - BlocksKit (~> 2.2.5)
+  - HTCopyableLabel (~> 0.0.7)
+  - IQKeyboardManager (~> 3.3.4)
+  - JSONModel (~> 1.1.0)
+  - Masonry (~> 1.0.1)
+  - MBProgressHUD (~> 0.9.2)
+  - MJRefresh (~> 3.1.0)
+  - MLTransition (~> 2.1.0)
+  - pop (~> 1.0)
+  - ReactiveCocoa (~> 2.5)
+  - SDWebImage (~> 3.7.6)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  HTCopyableLabel: e67c190d2f1f8f03c9d9858a7d8ce33be7fb43fa
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  JSONModel: 216584d0311b053ff714f1d6cb700dbf890847bc
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  MLTransition: 48ce7b91ef0c6acfcb9d03b22d2fa75d5826018f
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+
+PODFILE CHECKSUM: 66dbc08d1729f49a9b3011937e9851fae511c05a
+
+COCOAPODS: 1.0.0.beta.4
