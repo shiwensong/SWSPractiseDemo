@@ -27,5 +27,6 @@
 #import <IQKeyboardManager/IQKeyboardManager.h>
 #import "BlocksKit+UIKit.h"
 #import "BlocksKit.h"
+#import "MMPlaceHolder.h"
 
 #endif

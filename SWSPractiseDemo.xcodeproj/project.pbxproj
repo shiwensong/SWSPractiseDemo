@@ -36,6 +36,9 @@
 		BA2144F01D12E47900767A46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2144D21D12E47300767A46 /* main.m */; };
 		BA2144FE1D12E47C00767A46 /* SWSPractiseDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA2144DD1D12E47300767A46 /* SWSPractiseDemo.xcdatamodeld */; };
 		BA2145001D12E47C00767A46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2144D21D12E47300767A46 /* main.m */; };
+		BA3F0CF71D179EDC00F1C998 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3F0CF61D179EDC00F1C998 /* ThirdViewController.m */; };
+		BA3F0CF81D179EDC00F1C998 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3F0CF61D179EDC00F1C998 /* ThirdViewController.m */; };
+		BA3F0CF91D179EDC00F1C998 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3F0CF61D179EDC00F1C998 /* ThirdViewController.m */; };
 		BA6586BC1D12ED4800E4B711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA65864D1D12ED4800E4B711 /* Assets.xcassets */; };
 		BA6586BD1D12ED4800E4B711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA65864D1D12ED4800E4B711 /* Assets.xcassets */; };
 		BA6586BE1D12ED4800E4B711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA65864D1D12ED4800E4B711 /* Assets.xcassets */; };
@@ -81,6 +84,9 @@
 		BAC57B901D12FD62004AC0F4 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC57B891D12FD62004AC0F4 /* clock.png */; };
 		BAC57B911D12FD62004AC0F4 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC57B891D12FD62004AC0F4 /* clock.png */; };
 		BAC57B921D12FD62004AC0F4 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC57B891D12FD62004AC0F4 /* clock.png */; };
+		BAE0B6271D15369D0064939D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE0B6261D15369D0064939D /* SecondViewController.m */; };
+		BAE0B6281D15369D0064939D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE0B6261D15369D0064939D /* SecondViewController.m */; };
+		BAE0B6291D15369D0064939D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE0B6261D15369D0064939D /* SecondViewController.m */; };
 		BCE5D48411C2206B94DDD191 /* libPods-SWSPractiseDemo_First.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 911D34C2880AC8763E9F5FDE /* libPods-SWSPractiseDemo_First.a */; };
 /* End PBXBuildFile section */
 
@@ -111,6 +117,8 @@
 		BA2144E51D12E47300767A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA2144F91D12E47900767A46 /* SWSPractiseDemo_Second.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWSPractiseDemo_Second.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2145091D12E47C00767A46 /* SWSPractiseDemo_Third.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWSPractiseDemo_Third.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3F0CF51D179EDC00F1C998 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		BA3F0CF61D179EDC00F1C998 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		BA65864D1D12ED4800E4B711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA65864F1D12ED4800E4B711 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		BA6586501D12ED4800E4B711 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
@@ -142,6 +150,8 @@
 		BAC57B861D12FD62004AC0F4 /* HYBClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBClockView.h; sourceTree = "<group>"; };
 		BAC57B871D12FD62004AC0F4 /* HYBClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBClockView.m; sourceTree = "<group>"; };
 		BAC57B891D12FD62004AC0F4 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		BAE0B6251D15369D0064939D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BAE0B6261D15369D0064939D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		C176DC1CD1BF58876567ABA6 /* Pods-SWSPractiseDemo_First.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWSPractiseDemo_First.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWSPractiseDemo_First/Pods-SWSPractiseDemo_First.debug.xcconfig"; sourceTree = "<group>"; };
 		D401743E781A70BEB2B222C5 /* Pods-SWSPractiseDemo_Second.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWSPractiseDemo_Second.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWSPractiseDemo_Second/Pods-SWSPractiseDemo_Second.release.xcconfig"; sourceTree = "<group>"; };
 		D69D319E79B06707023B2C09 /* Pods-SWSPractiseDemo_Third.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWSPractiseDemo_Third.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWSPractiseDemo_Third/Pods-SWSPractiseDemo_Third.release.xcconfig"; sourceTree = "<group>"; };
@@ -272,6 +282,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BA3F0CF41D179EAA00F1C998 /* ThirdDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BA3F0CF51D179EDC00F1C998 /* ThirdViewController.h */,
+				BA3F0CF61D179EDC00F1C998 /* ThirdViewController.m */,
+			);
+			path = ThirdDemo;
+			sourceTree = "<group>";
+		};
 		BA65864E1D12ED4800E4B711 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -323,6 +342,8 @@
 				BA6587A21D12F09900E4B711 /* FirstTableViewController.h */,
 				BA6587A31D12F09900E4B711 /* FirstTableViewController.m */,
 				BA6587A41D12F09900E4B711 /* FisrtDemo */,
+				BAE0B6241D1536800064939D /* SecondDemo */,
+				BA3F0CF41D179EAA00F1C998 /* ThirdDemo */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -355,6 +376,15 @@
 				BAC57B891D12FD62004AC0F4 /* clock.png */,
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		BAE0B6241D1536800064939D /* SecondDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BAE0B6251D15369D0064939D /* SecondViewController.h */,
+				BAE0B6261D15369D0064939D /* SecondViewController.m */,
+			);
+			path = SecondDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -639,12 +669,14 @@
 			files = (
 				BA2144DF1D12E47300767A46 /* SWSPractiseDemo.xcdatamodeld in Sources */,
 				BA6586C21D12ED4800E4B711 /* NSDictionary+JSONString.m in Sources */,
+				BA3F0CF71D179EDC00F1C998 /* ThirdViewController.m in Sources */,
 				BA6586BF1D12ED4800E4B711 /* BaseViewController.m in Sources */,
 				BA6587AA1D12F09900E4B711 /* FirstViewController.m in Sources */,
 				BA0D68341D12F339004ED031 /* TempViewController.m in Sources */,
 				BA2144D31D12E47300767A46 /* main.m in Sources */,
 				BA6586D11D12ED4800E4B711 /* CustomView.m in Sources */,
 				BA6587A71D12F09900E4B711 /* FirstTableViewController.m in Sources */,
+				BAE0B6271D15369D0064939D /* SecondViewController.m in Sources */,
 				BA0D683D1D12F339004ED031 /* ViewController.m in Sources */,
 				BA0D682B1D12F339004ED031 /* AppDelegate.m in Sources */,
 				BAC57B8D1D12FD62004AC0F4 /* HYBClockView.m in Sources */,
@@ -667,12 +699,14 @@
 			files = (
 				BA2144EE1D12E47900767A46 /* SWSPractiseDemo.xcdatamodeld in Sources */,
 				BA6586C31D12ED4800E4B711 /* NSDictionary+JSONString.m in Sources */,
+				BA3F0CF81D179EDC00F1C998 /* ThirdViewController.m in Sources */,
 				BA6586C01D12ED4800E4B711 /* BaseViewController.m in Sources */,
 				BA6587AB1D12F09900E4B711 /* FirstViewController.m in Sources */,
 				BA0D68351D12F339004ED031 /* TempViewController.m in Sources */,
 				BA2144F01D12E47900767A46 /* main.m in Sources */,
 				BA6586D21D12ED4800E4B711 /* CustomView.m in Sources */,
 				BA6587A81D12F09900E4B711 /* FirstTableViewController.m in Sources */,
+				BAE0B6281D15369D0064939D /* SecondViewController.m in Sources */,
 				BA0D683E1D12F339004ED031 /* ViewController.m in Sources */,
 				BA0D682C1D12F339004ED031 /* AppDelegate.m in Sources */,
 				BAC57B8E1D12FD62004AC0F4 /* HYBClockView.m in Sources */,
@@ -695,12 +729,14 @@
 			files = (
 				BA2144FE1D12E47C00767A46 /* SWSPractiseDemo.xcdatamodeld in Sources */,
 				BA6586C41D12ED4800E4B711 /* NSDictionary+JSONString.m in Sources */,
+				BA3F0CF91D179EDC00F1C998 /* ThirdViewController.m in Sources */,
 				BA6586C11D12ED4800E4B711 /* BaseViewController.m in Sources */,
 				BA6587AC1D12F09900E4B711 /* FirstViewController.m in Sources */,
 				BA0D68361D12F339004ED031 /* TempViewController.m in Sources */,
 				BA2145001D12E47C00767A46 /* main.m in Sources */,
 				BA6586D31D12ED4800E4B711 /* CustomView.m in Sources */,
 				BA6587A91D12F09900E4B711 /* FirstTableViewController.m in Sources */,
+				BAE0B6291D15369D0064939D /* SecondViewController.m in Sources */,
 				BA0D683F1D12F339004ED031 /* ViewController.m in Sources */,
 				BA0D682D1D12F339004ED031 /* AppDelegate.m in Sources */,
 				BAC57B8F1D12FD62004AC0F4 /* HYBClockView.m in Sources */,

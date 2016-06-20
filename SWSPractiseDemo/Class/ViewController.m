@@ -162,8 +162,21 @@
     //    UIImage *image = [info valueForKey:UIImagePickerControllerEditedImage];
     
     NSLog(@"得到了image");
+    
+    
     [picker dismissViewControllerAnimated:YES completion:NULL];
 }
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker{
+    
+    [picker dismissViewControllerAnimated:YES completion:^{
+        NSLog(@"点击了取消选择图片按钮");
+    }];
+    
+}
+
+
+
 
 #pragma mark - IBAction 
 

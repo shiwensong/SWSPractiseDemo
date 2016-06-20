@@ -23,16 +23,57 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.dataSourceArray = @[@"FirstViewController",@"FirstViewController"];
+    self.dataSourceArray = @[
+                             @"FirstViewController",
+                             @"SecondViewController",
+                             @"ThirdViewController",
+                             @"FirstViewController",
+                             @"FirstViewController",
+                             @"FirstViewController",
+                             @"FirstViewController",
+                             @"FirstViewController",
+                             @"FirstViewController",
+                             @"FirstViewController",
+                             @"FirstViewController",
+                             @"FirstViewController",
+                             @"FirstViewController",
+                             @"FirstViewController",
+                             @"FirstViewController",
+                             @"FirstViewController",
+                             @"FirstViewController",
+                             @"FirstViewController",
+                             ];
     self.dataSourceDictionary =  @{
                                   @"0" : @"时钟转动有动画和没有动画",
-                                  @"1" : @"第二个demo",
+                                  @"1" : @"关于segmentView的使用",
+                                  @"2" : @"关于调用手机上已有的地图进行导航",
+                                  @"3" : @"第二个demo",
+                                  @"4" : @"时钟转动有动画和没有动画",
+                                  @"5" : @"第二个demo",
+                                  @"6" : @"时钟转动有动画和没有动画",
+                                  @"7" : @"第二个demo",
+                                  @"8" : @"时钟转动有动画和没有动画",
+                                  @"9" : @"时钟转动有动画和没有动画",
+                                  @"10" : @"第二个demo",
+                                  @"11" : @"时钟转动有动画和没有动画",
+                                  @"12" : @"第二个demo",
+                                  @"13" : @"时钟转动有动画和没有动画",
+                                  @"14" : @"第二个demo",
+                                  @"15" : @"时钟转动有动画和没有动画",
+                                  @"16" : @"第二个demo",
+                                  @"17" : @"时钟转动有动画和没有动画",
                                   };
     
     [self addGrounpTablewDelegate:self];
     
     
+// 对viewController的手势，可以操作navigationBar
+//    self.navigationController.hidesBarsOnSwipe = YES;
+//    self.navigationController.hidesBarsOnTap = YES;
+//    self.navigationController.hidesBarsWhenVerticallyCompact = YES;
     
+    
+    [[UIBarButtonItem appearance]setBackButtonTitlePositionAdjustment:UIOffsetMake(0,-60)forBarMetrics:UIBarMetricsDefault];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -48,6 +89,10 @@
 }
 -(void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
+    
+    [[UIBarButtonItem appearance]setBackButtonTitlePositionAdjustment:UIOffsetMake(0,0)forBarMetrics:UIBarMetricsDefault];
+
+    
 }
 -(void)viewDidDisappear:(BOOL)animated{
     [super viewDidDisappear:animated];
@@ -74,7 +119,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     static NSString *cellID = @"cellIdentifier";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"hehe"];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
     }
@@ -91,7 +136,9 @@
     NSString *className = self.dataSourceArray[indexString.integerValue];
     Class class = NSClassFromString(className);
     id viewController = [[class alloc] init];
-    [viewController setValue:indexString forKey:@"number"];
+    if ([viewController respondsToSelector:@selector(setNumber:)]) {
+        [viewController setValue:indexString forKey:@"number"];
+    }
     [self.navigationController pushViewController:viewController animated:YES];
     
 }

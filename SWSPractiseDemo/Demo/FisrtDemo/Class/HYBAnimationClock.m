@@ -45,6 +45,8 @@
   return self;
 }
 
+
+
 - (void)addSecondAnimationWithAngle:(CGFloat)angle {
   CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
   animation.repeatCount = HUGE_VALF;

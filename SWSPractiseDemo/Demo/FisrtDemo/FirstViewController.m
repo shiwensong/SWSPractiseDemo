@@ -32,6 +32,8 @@
     
     HYBAnimationClock *aniClockView = [[HYBAnimationClock alloc] initWithFrame:CGRectMake(x, 280, 200, 200)
                                                                      imageName:@"clock"];
+//    [aniClockView showPlaceHolderWithLineColor:[UIColor greenColor] backColor:nil arrowSize:100 lineWidth:1 frameWidth:100 frameColor:[UIColor clearColor]];
+    [aniClockView showPlaceHolderWithLineColor:[UIColor greenColor] backColor:[UIColor clearColor]];
     
     [self.view addSubview:aniClockView];
     
@@ -40,6 +42,12 @@
 //    self.clockView = nil;
     
     
+}
+
+-(void)dealloc
+{
+    NSLog(@"内存释放--%@",NSStringFromClass([self class]) );
+    [[NSNotificationCenter defaultCenter]removeObserver:self];
 }
 
 - (void)didReceiveMemoryWarning {

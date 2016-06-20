@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "UINavigationController+StatusBar.h"
-#import "MLTransition.h"
+//#import "MLTransition.h"
 
 
 @implementation AppDelegate
@@ -17,7 +17,7 @@
 {
     // Override point for customization after application launch.
     //一句话启用
-    [MLTransition validatePanBackWithMLTransitionGestureRecognizerType:MLTransitionGestureRecognizerTypePan];
+//    [MLTransition validatePanBackWithMLTransitionGestureRecognizerType:MLTransitionGestureRecognizerTypePan];
     
     
     //简单搞下demo颜色
