@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		4107D7465A9C3FDBE9984AB4 /* libPods-SWSPractiseDemo_Second.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB298DCB29782363E39BBE1C /* libPods-SWSPractiseDemo_Second.a */; };
 		88E10DE28511505B031AF0B4 /* libPods-SWSPractiseDemo_Third.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BB5852304E1123F9A4546B /* libPods-SWSPractiseDemo_Third.a */; };
+		BA0829531D17CA7F00E6FBB6 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0829521D17CA7F00E6FBB6 /* FourViewController.m */; };
+		BA0829541D17CA7F00E6FBB6 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0829521D17CA7F00E6FBB6 /* FourViewController.m */; };
+		BA0829551D17CA7F00E6FBB6 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0829521D17CA7F00E6FBB6 /* FourViewController.m */; };
 		BA0D682B1D12F339004ED031 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0D681C1D12F339004ED031 /* AppDelegate.m */; };
 		BA0D682C1D12F339004ED031 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0D681C1D12F339004ED031 /* AppDelegate.m */; };
 		BA0D682D1D12F339004ED031 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0D681C1D12F339004ED031 /* AppDelegate.m */; };
@@ -75,6 +78,12 @@
 		BA6587AA1D12F09900E4B711 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6587A61D12F09900E4B711 /* FirstViewController.m */; };
 		BA6587AB1D12F09900E4B711 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6587A61D12F09900E4B711 /* FirstViewController.m */; };
 		BA6587AC1D12F09900E4B711 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6587A61D12F09900E4B711 /* FirstViewController.m */; };
+		BA7140F51D17F38900C7D936 /* FiveDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7140F41D17F38900C7D936 /* FiveDemoViewController.m */; };
+		BA7140F61D17F38900C7D936 /* FiveDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7140F41D17F38900C7D936 /* FiveDemoViewController.m */; };
+		BA7140F71D17F38900C7D936 /* FiveDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7140F41D17F38900C7D936 /* FiveDemoViewController.m */; };
+		BA9A24611D1A427E0091FD24 /* SixDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A24601D1A427E0091FD24 /* SixDemoViewController.m */; };
+		BA9A24621D1A427E0091FD24 /* SixDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A24601D1A427E0091FD24 /* SixDemoViewController.m */; };
+		BA9A24631D1A427E0091FD24 /* SixDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A24601D1A427E0091FD24 /* SixDemoViewController.m */; };
 		BAC57B8A1D12FD62004AC0F4 /* HYBAnimationClock.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC57B851D12FD62004AC0F4 /* HYBAnimationClock.m */; };
 		BAC57B8B1D12FD62004AC0F4 /* HYBAnimationClock.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC57B851D12FD62004AC0F4 /* HYBAnimationClock.m */; };
 		BAC57B8C1D12FD62004AC0F4 /* HYBAnimationClock.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC57B851D12FD62004AC0F4 /* HYBAnimationClock.m */; };
@@ -95,6 +104,8 @@
 		7EDBD5C64453325BB14B060B /* Pods-SWSPractiseDemo_First.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWSPractiseDemo_First.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWSPractiseDemo_First/Pods-SWSPractiseDemo_First.release.xcconfig"; sourceTree = "<group>"; };
 		911D34C2880AC8763E9F5FDE /* libPods-SWSPractiseDemo_First.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SWSPractiseDemo_First.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91F319E7560454F83B6B964 /* Pods-SWSPractiseDemo_Third.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWSPractiseDemo_Third.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWSPractiseDemo_Third/Pods-SWSPractiseDemo_Third.debug.xcconfig"; sourceTree = "<group>"; };
+		BA0829511D17CA7F00E6FBB6 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		BA0829521D17CA7F00E6FBB6 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 		BA0D681B1D12F339004ED031 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Class/AppDelegate.h; sourceTree = "<group>"; };
 		BA0D681C1D12F339004ED031 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Class/AppDelegate.m; sourceTree = "<group>"; };
 		BA0D681D1D12F339004ED031 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
@@ -145,6 +156,10 @@
 		BA6587A31D12F09900E4B711 /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
 		BA6587A51D12F09900E4B711 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		BA6587A61D12F09900E4B711 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BA7140F31D17F38900C7D936 /* FiveDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveDemoViewController.h; sourceTree = "<group>"; };
+		BA7140F41D17F38900C7D936 /* FiveDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveDemoViewController.m; sourceTree = "<group>"; };
+		BA9A245F1D1A427E0091FD24 /* SixDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixDemoViewController.h; sourceTree = "<group>"; };
+		BA9A24601D1A427E0091FD24 /* SixDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixDemoViewController.m; sourceTree = "<group>"; };
 		BAC57B841D12FD62004AC0F4 /* HYBAnimationClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBAnimationClock.h; sourceTree = "<group>"; };
 		BAC57B851D12FD62004AC0F4 /* HYBAnimationClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBAnimationClock.m; sourceTree = "<group>"; };
 		BAC57B861D12FD62004AC0F4 /* HYBClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBClockView.h; sourceTree = "<group>"; };
@@ -208,6 +223,15 @@
 				D69D319E79B06707023B2C09 /* Pods-SWSPractiseDemo_Third.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA0829501D17CA7F00E6FBB6 /* FourDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BA0829511D17CA7F00E6FBB6 /* FourViewController.h */,
+				BA0829521D17CA7F00E6FBB6 /* FourViewController.m */,
+			);
+			path = FourDemo;
 			sourceTree = "<group>";
 		};
 		BA0D681A1D12F339004ED031 /* Class */ = {
@@ -344,6 +368,9 @@
 				BA6587A41D12F09900E4B711 /* FisrtDemo */,
 				BAE0B6241D1536800064939D /* SecondDemo */,
 				BA3F0CF41D179EAA00F1C998 /* ThirdDemo */,
+				BA0829501D17CA7F00E6FBB6 /* FourDemo */,
+				BA7140F21D17F37800C7D936 /* FiveDemo */,
+				BA9A245E1D1A427E0091FD24 /* SixDemo */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -357,6 +384,24 @@
 				BAC57B881D12FD62004AC0F4 /* image */,
 			);
 			path = FisrtDemo;
+			sourceTree = "<group>";
+		};
+		BA7140F21D17F37800C7D936 /* FiveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BA7140F31D17F38900C7D936 /* FiveDemoViewController.h */,
+				BA7140F41D17F38900C7D936 /* FiveDemoViewController.m */,
+			);
+			path = FiveDemo;
+			sourceTree = "<group>";
+		};
+		BA9A245E1D1A427E0091FD24 /* SixDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BA9A245F1D1A427E0091FD24 /* SixDemoViewController.h */,
+				BA9A24601D1A427E0091FD24 /* SixDemoViewController.m */,
+			);
+			path = SixDemo;
 			sourceTree = "<group>";
 		};
 		BAC57B831D12FD62004AC0F4 /* Class */ = {
@@ -674,6 +719,7 @@
 				BA6587AA1D12F09900E4B711 /* FirstViewController.m in Sources */,
 				BA0D68341D12F339004ED031 /* TempViewController.m in Sources */,
 				BA2144D31D12E47300767A46 /* main.m in Sources */,
+				BA7140F51D17F38900C7D936 /* FiveDemoViewController.m in Sources */,
 				BA6586D11D12ED4800E4B711 /* CustomView.m in Sources */,
 				BA6587A71D12F09900E4B711 /* FirstTableViewController.m in Sources */,
 				BAE0B6271D15369D0064939D /* SecondViewController.m in Sources */,
@@ -685,8 +731,10 @@
 				BA6586C51D12ED4800E4B711 /* OprationTools.m in Sources */,
 				BAC57B8A1D12FD62004AC0F4 /* HYBAnimationClock.m in Sources */,
 				BA0D68371D12F339004ED031 /* TestViewController.m in Sources */,
+				BA0829531D17CA7F00E6FBB6 /* FourViewController.m in Sources */,
 				BA6587971D12ED4800E4B711 /* UIView+MGO.m in Sources */,
 				BA6586C81D12ED4800E4B711 /* UIViewController+addFresh.m in Sources */,
+				BA9A24611D1A427E0091FD24 /* SixDemoViewController.m in Sources */,
 				BA0D683A1D12F339004ED031 /* UINavigationController+StatusBar.m in Sources */,
 				BA6586CB1D12ED4800E4B711 /* UIViewController+addTablew.m in Sources */,
 				BA0D682E1D12F339004ED031 /* DetailViewController.m in Sources */,
@@ -704,6 +752,7 @@
 				BA6587AB1D12F09900E4B711 /* FirstViewController.m in Sources */,
 				BA0D68351D12F339004ED031 /* TempViewController.m in Sources */,
 				BA2144F01D12E47900767A46 /* main.m in Sources */,
+				BA7140F61D17F38900C7D936 /* FiveDemoViewController.m in Sources */,
 				BA6586D21D12ED4800E4B711 /* CustomView.m in Sources */,
 				BA6587A81D12F09900E4B711 /* FirstTableViewController.m in Sources */,
 				BAE0B6281D15369D0064939D /* SecondViewController.m in Sources */,
@@ -715,8 +764,10 @@
 				BA6586C61D12ED4800E4B711 /* OprationTools.m in Sources */,
 				BAC57B8B1D12FD62004AC0F4 /* HYBAnimationClock.m in Sources */,
 				BA0D68381D12F339004ED031 /* TestViewController.m in Sources */,
+				BA0829541D17CA7F00E6FBB6 /* FourViewController.m in Sources */,
 				BA6587981D12ED4800E4B711 /* UIView+MGO.m in Sources */,
 				BA6586C91D12ED4800E4B711 /* UIViewController+addFresh.m in Sources */,
+				BA9A24621D1A427E0091FD24 /* SixDemoViewController.m in Sources */,
 				BA0D683B1D12F339004ED031 /* UINavigationController+StatusBar.m in Sources */,
 				BA6586CC1D12ED4800E4B711 /* UIViewController+addTablew.m in Sources */,
 				BA0D682F1D12F339004ED031 /* DetailViewController.m in Sources */,
@@ -734,6 +785,7 @@
 				BA6587AC1D12F09900E4B711 /* FirstViewController.m in Sources */,
 				BA0D68361D12F339004ED031 /* TempViewController.m in Sources */,
 				BA2145001D12E47C00767A46 /* main.m in Sources */,
+				BA7140F71D17F38900C7D936 /* FiveDemoViewController.m in Sources */,
 				BA6586D31D12ED4800E4B711 /* CustomView.m in Sources */,
 				BA6587A91D12F09900E4B711 /* FirstTableViewController.m in Sources */,
 				BAE0B6291D15369D0064939D /* SecondViewController.m in Sources */,
@@ -745,8 +797,10 @@
 				BA6586C71D12ED4800E4B711 /* OprationTools.m in Sources */,
 				BAC57B8C1D12FD62004AC0F4 /* HYBAnimationClock.m in Sources */,
 				BA0D68391D12F339004ED031 /* TestViewController.m in Sources */,
+				BA0829551D17CA7F00E6FBB6 /* FourViewController.m in Sources */,
 				BA6587991D12ED4800E4B711 /* UIView+MGO.m in Sources */,
 				BA6586CA1D12ED4800E4B711 /* UIViewController+addFresh.m in Sources */,
+				BA9A24631D1A427E0091FD24 /* SixDemoViewController.m in Sources */,
 				BA0D683C1D12F339004ED031 /* UINavigationController+StatusBar.m in Sources */,
 				BA6586CD1D12ED4800E4B711 /* UIViewController+addTablew.m in Sources */,
 				BA0D68301D12F339004ED031 /* DetailViewController.m in Sources */,

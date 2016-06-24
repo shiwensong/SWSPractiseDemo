@@ -28,5 +28,7 @@
 #import "BlocksKit+UIKit.h"
 #import "BlocksKit.h"
 #import "MMPlaceHolder.h"
+#import "ReactiveCocoa.h"
+
 
 #endif
