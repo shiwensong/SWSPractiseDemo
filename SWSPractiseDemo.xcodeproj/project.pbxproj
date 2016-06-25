@@ -33,6 +33,12 @@
 		BA0D683D1D12F339004ED031 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0D682A1D12F339004ED031 /* ViewController.m */; };
 		BA0D683E1D12F339004ED031 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0D682A1D12F339004ED031 /* ViewController.m */; };
 		BA0D683F1D12F339004ED031 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0D682A1D12F339004ED031 /* ViewController.m */; };
+		BA17F3C91D1D79D600B203FD /* xuanfuwu.m in Sources */ = {isa = PBXBuildFile; fileRef = BA17F3C81D1D79D600B203FD /* xuanfuwu.m */; };
+		BA17F3CA1D1D79D600B203FD /* xuanfuwu.m in Sources */ = {isa = PBXBuildFile; fileRef = BA17F3C81D1D79D600B203FD /* xuanfuwu.m */; };
+		BA17F3CB1D1D79D600B203FD /* xuanfuwu.m in Sources */ = {isa = PBXBuildFile; fileRef = BA17F3C81D1D79D600B203FD /* xuanfuwu.m */; };
+		BA17F3CE1D1D7A2B00B203FD /* SevenDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA17F3CD1D1D7A2B00B203FD /* SevenDemoViewController.m */; };
+		BA17F3CF1D1D7A2B00B203FD /* SevenDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA17F3CD1D1D7A2B00B203FD /* SevenDemoViewController.m */; };
+		BA17F3D01D1D7A2B00B203FD /* SevenDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA17F3CD1D1D7A2B00B203FD /* SevenDemoViewController.m */; };
 		BA2144D31D12E47300767A46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2144D21D12E47300767A46 /* main.m */; };
 		BA2144DF1D12E47300767A46 /* SWSPractiseDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA2144DD1D12E47300767A46 /* SWSPractiseDemo.xcdatamodeld */; };
 		BA2144EE1D12E47900767A46 /* SWSPractiseDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA2144DD1D12E47300767A46 /* SWSPractiseDemo.xcdatamodeld */; };
@@ -84,6 +90,12 @@
 		BA9A24611D1A427E0091FD24 /* SixDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A24601D1A427E0091FD24 /* SixDemoViewController.m */; };
 		BA9A24621D1A427E0091FD24 /* SixDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A24601D1A427E0091FD24 /* SixDemoViewController.m */; };
 		BA9A24631D1A427E0091FD24 /* SixDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A24601D1A427E0091FD24 /* SixDemoViewController.m */; };
+		BABE06261D1D83C100C19F5C /* TabbarIconMoney@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BABE06251D1D83C100C19F5C /* TabbarIconMoney@2x.png */; };
+		BABE06271D1D83C100C19F5C /* TabbarIconMoney@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BABE06251D1D83C100C19F5C /* TabbarIconMoney@2x.png */; };
+		BABE06281D1D83C100C19F5C /* TabbarIconMoney@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BABE06251D1D83C100C19F5C /* TabbarIconMoney@2x.png */; };
+		BABE062B1D1D8B4600C19F5C /* TopView.m in Sources */ = {isa = PBXBuildFile; fileRef = BABE062A1D1D8B4600C19F5C /* TopView.m */; };
+		BABE062C1D1D8B4600C19F5C /* TopView.m in Sources */ = {isa = PBXBuildFile; fileRef = BABE062A1D1D8B4600C19F5C /* TopView.m */; };
+		BABE062D1D1D8B4600C19F5C /* TopView.m in Sources */ = {isa = PBXBuildFile; fileRef = BABE062A1D1D8B4600C19F5C /* TopView.m */; };
 		BAC57B8A1D12FD62004AC0F4 /* HYBAnimationClock.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC57B851D12FD62004AC0F4 /* HYBAnimationClock.m */; };
 		BAC57B8B1D12FD62004AC0F4 /* HYBAnimationClock.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC57B851D12FD62004AC0F4 /* HYBAnimationClock.m */; };
 		BAC57B8C1D12FD62004AC0F4 /* HYBAnimationClock.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC57B851D12FD62004AC0F4 /* HYBAnimationClock.m */; };
@@ -122,6 +134,10 @@
 		BA0D68281D12F339004ED031 /* UINavigationController+StatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+StatusBar.m"; sourceTree = "<group>"; };
 		BA0D68291D12F339004ED031 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Class/ViewController.h; sourceTree = "<group>"; };
 		BA0D682A1D12F339004ED031 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Class/ViewController.m; sourceTree = "<group>"; };
+		BA17F3C71D1D79D600B203FD /* xuanfuwu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xuanfuwu.h; sourceTree = "<group>"; };
+		BA17F3C81D1D79D600B203FD /* xuanfuwu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xuanfuwu.m; sourceTree = "<group>"; };
+		BA17F3CC1D1D7A2B00B203FD /* SevenDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SevenDemoViewController.h; sourceTree = "<group>"; };
+		BA17F3CD1D1D7A2B00B203FD /* SevenDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SevenDemoViewController.m; sourceTree = "<group>"; };
 		BA2144CE1D12E47300767A46 /* SWSPractiseDemo_First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWSPractiseDemo_First.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2144D21D12E47300767A46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA2144DE1D12E47300767A46 /* SWSPractiseDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SWSPractiseDemo.xcdatamodel; sourceTree = "<group>"; };
@@ -160,6 +176,9 @@
 		BA7140F41D17F38900C7D936 /* FiveDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveDemoViewController.m; sourceTree = "<group>"; };
 		BA9A245F1D1A427E0091FD24 /* SixDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixDemoViewController.h; sourceTree = "<group>"; };
 		BA9A24601D1A427E0091FD24 /* SixDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixDemoViewController.m; sourceTree = "<group>"; };
+		BABE06251D1D83C100C19F5C /* TabbarIconMoney@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabbarIconMoney@2x.png"; sourceTree = "<group>"; };
+		BABE06291D1D8B4600C19F5C /* TopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopView.h; sourceTree = "<group>"; };
+		BABE062A1D1D8B4600C19F5C /* TopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopView.m; sourceTree = "<group>"; };
 		BAC57B841D12FD62004AC0F4 /* HYBAnimationClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBAnimationClock.h; sourceTree = "<group>"; };
 		BAC57B851D12FD62004AC0F4 /* HYBAnimationClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBAnimationClock.m; sourceTree = "<group>"; };
 		BAC57B861D12FD62004AC0F4 /* HYBClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBClockView.h; sourceTree = "<group>"; };
@@ -251,6 +270,20 @@
 				BA0D68281D12F339004ED031 /* UINavigationController+StatusBar.m */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		BA17F3C61D1D79C300B203FD /* SeventhDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BABE06251D1D83C100C19F5C /* TabbarIconMoney@2x.png */,
+				BA17F3C71D1D79D600B203FD /* xuanfuwu.h */,
+				BA17F3C81D1D79D600B203FD /* xuanfuwu.m */,
+				BA17F3CC1D1D7A2B00B203FD /* SevenDemoViewController.h */,
+				BA17F3CD1D1D7A2B00B203FD /* SevenDemoViewController.m */,
+				BABE06291D1D8B4600C19F5C /* TopView.h */,
+				BABE062A1D1D8B4600C19F5C /* TopView.m */,
+			);
+			path = SeventhDemo;
 			sourceTree = "<group>";
 		};
 		BA2144C51D12E47300767A46 = {
@@ -371,6 +404,7 @@
 				BA0829501D17CA7F00E6FBB6 /* FourDemo */,
 				BA7140F21D17F37800C7D936 /* FiveDemo */,
 				BA9A245E1D1A427E0091FD24 /* SixDemo */,
+				BA17F3C61D1D79C300B203FD /* SeventhDemo */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -541,6 +575,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BABE06261D1D83C100C19F5C /* TabbarIconMoney@2x.png in Resources */,
 				BA6586CE1D12ED4800E4B711 /* Main.storyboard in Resources */,
 				BA6586BC1D12ED4800E4B711 /* Assets.xcassets in Resources */,
 				BAC57B901D12FD62004AC0F4 /* clock.png in Resources */,
@@ -551,6 +586,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BABE06271D1D83C100C19F5C /* TabbarIconMoney@2x.png in Resources */,
 				BA6586CF1D12ED4800E4B711 /* Main.storyboard in Resources */,
 				BA6586BD1D12ED4800E4B711 /* Assets.xcassets in Resources */,
 				BAC57B911D12FD62004AC0F4 /* clock.png in Resources */,
@@ -561,6 +597,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BABE06281D1D83C100C19F5C /* TabbarIconMoney@2x.png in Resources */,
 				BA6586D01D12ED4800E4B711 /* Main.storyboard in Resources */,
 				BA6586BE1D12ED4800E4B711 /* Assets.xcassets in Resources */,
 				BAC57B921D12FD62004AC0F4 /* clock.png in Resources */,
@@ -721,10 +758,12 @@
 				BA2144D31D12E47300767A46 /* main.m in Sources */,
 				BA7140F51D17F38900C7D936 /* FiveDemoViewController.m in Sources */,
 				BA6586D11D12ED4800E4B711 /* CustomView.m in Sources */,
+				BABE062B1D1D8B4600C19F5C /* TopView.m in Sources */,
 				BA6587A71D12F09900E4B711 /* FirstTableViewController.m in Sources */,
 				BAE0B6271D15369D0064939D /* SecondViewController.m in Sources */,
 				BA0D683D1D12F339004ED031 /* ViewController.m in Sources */,
 				BA0D682B1D12F339004ED031 /* AppDelegate.m in Sources */,
+				BA17F3CE1D1D7A2B00B203FD /* SevenDemoViewController.m in Sources */,
 				BAC57B8D1D12FD62004AC0F4 /* HYBClockView.m in Sources */,
 				BA0D68311D12F339004ED031 /* TempTableViewController.m in Sources */,
 				BA6587941D12ED4800E4B711 /* MGOImageView.m in Sources */,
@@ -736,6 +775,7 @@
 				BA6586C81D12ED4800E4B711 /* UIViewController+addFresh.m in Sources */,
 				BA9A24611D1A427E0091FD24 /* SixDemoViewController.m in Sources */,
 				BA0D683A1D12F339004ED031 /* UINavigationController+StatusBar.m in Sources */,
+				BA17F3C91D1D79D600B203FD /* xuanfuwu.m in Sources */,
 				BA6586CB1D12ED4800E4B711 /* UIViewController+addTablew.m in Sources */,
 				BA0D682E1D12F339004ED031 /* DetailViewController.m in Sources */,
 			);
@@ -754,10 +794,12 @@
 				BA2144F01D12E47900767A46 /* main.m in Sources */,
 				BA7140F61D17F38900C7D936 /* FiveDemoViewController.m in Sources */,
 				BA6586D21D12ED4800E4B711 /* CustomView.m in Sources */,
+				BABE062C1D1D8B4600C19F5C /* TopView.m in Sources */,
 				BA6587A81D12F09900E4B711 /* FirstTableViewController.m in Sources */,
 				BAE0B6281D15369D0064939D /* SecondViewController.m in Sources */,
 				BA0D683E1D12F339004ED031 /* ViewController.m in Sources */,
 				BA0D682C1D12F339004ED031 /* AppDelegate.m in Sources */,
+				BA17F3CF1D1D7A2B00B203FD /* SevenDemoViewController.m in Sources */,
 				BAC57B8E1D12FD62004AC0F4 /* HYBClockView.m in Sources */,
 				BA0D68321D12F339004ED031 /* TempTableViewController.m in Sources */,
 				BA6587951D12ED4800E4B711 /* MGOImageView.m in Sources */,
@@ -769,6 +811,7 @@
 				BA6586C91D12ED4800E4B711 /* UIViewController+addFresh.m in Sources */,
 				BA9A24621D1A427E0091FD24 /* SixDemoViewController.m in Sources */,
 				BA0D683B1D12F339004ED031 /* UINavigationController+StatusBar.m in Sources */,
+				BA17F3CA1D1D79D600B203FD /* xuanfuwu.m in Sources */,
 				BA6586CC1D12ED4800E4B711 /* UIViewController+addTablew.m in Sources */,
 				BA0D682F1D12F339004ED031 /* DetailViewController.m in Sources */,
 			);
@@ -787,10 +830,12 @@
 				BA2145001D12E47C00767A46 /* main.m in Sources */,
 				BA7140F71D17F38900C7D936 /* FiveDemoViewController.m in Sources */,
 				BA6586D31D12ED4800E4B711 /* CustomView.m in Sources */,
+				BABE062D1D1D8B4600C19F5C /* TopView.m in Sources */,
 				BA6587A91D12F09900E4B711 /* FirstTableViewController.m in Sources */,
 				BAE0B6291D15369D0064939D /* SecondViewController.m in Sources */,
 				BA0D683F1D12F339004ED031 /* ViewController.m in Sources */,
 				BA0D682D1D12F339004ED031 /* AppDelegate.m in Sources */,
+				BA17F3D01D1D7A2B00B203FD /* SevenDemoViewController.m in Sources */,
 				BAC57B8F1D12FD62004AC0F4 /* HYBClockView.m in Sources */,
 				BA0D68331D12F339004ED031 /* TempTableViewController.m in Sources */,
 				BA6587961D12ED4800E4B711 /* MGOImageView.m in Sources */,
@@ -802,6 +847,7 @@
 				BA6586CA1D12ED4800E4B711 /* UIViewController+addFresh.m in Sources */,
 				BA9A24631D1A427E0091FD24 /* SixDemoViewController.m in Sources */,
 				BA0D683C1D12F339004ED031 /* UINavigationController+StatusBar.m in Sources */,
+				BA17F3CB1D1D79D600B203FD /* xuanfuwu.m in Sources */,
 				BA6586CD1D12ED4800E4B711 /* UIViewController+addTablew.m in Sources */,
 				BA0D68301D12F339004ED031 /* DetailViewController.m in Sources */,
 			);
