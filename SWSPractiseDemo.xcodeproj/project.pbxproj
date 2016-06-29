@@ -105,6 +105,12 @@
 		BAC57B901D12FD62004AC0F4 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC57B891D12FD62004AC0F4 /* clock.png */; };
 		BAC57B911D12FD62004AC0F4 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC57B891D12FD62004AC0F4 /* clock.png */; };
 		BAC57B921D12FD62004AC0F4 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC57B891D12FD62004AC0F4 /* clock.png */; };
+		BACBC81F1D23A41A0031F0A5 /* EightDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BACBC81E1D23A41A0031F0A5 /* EightDemoViewController.m */; };
+		BACBC8201D23A41A0031F0A5 /* EightDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BACBC81E1D23A41A0031F0A5 /* EightDemoViewController.m */; };
+		BACBC8211D23A41A0031F0A5 /* EightDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BACBC81E1D23A41A0031F0A5 /* EightDemoViewController.m */; };
+		BACBC8241D23A47A0031F0A5 /* ZJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BACBC8231D23A47A0031F0A5 /* ZJLabel.m */; };
+		BACBC8251D23A47A0031F0A5 /* ZJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BACBC8231D23A47A0031F0A5 /* ZJLabel.m */; };
+		BACBC8261D23A47A0031F0A5 /* ZJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BACBC8231D23A47A0031F0A5 /* ZJLabel.m */; };
 		BAE0B6271D15369D0064939D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE0B6261D15369D0064939D /* SecondViewController.m */; };
 		BAE0B6281D15369D0064939D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE0B6261D15369D0064939D /* SecondViewController.m */; };
 		BAE0B6291D15369D0064939D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE0B6261D15369D0064939D /* SecondViewController.m */; };
@@ -184,6 +190,10 @@
 		BAC57B861D12FD62004AC0F4 /* HYBClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBClockView.h; sourceTree = "<group>"; };
 		BAC57B871D12FD62004AC0F4 /* HYBClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBClockView.m; sourceTree = "<group>"; };
 		BAC57B891D12FD62004AC0F4 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		BACBC81D1D23A41A0031F0A5 /* EightDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EightDemoViewController.h; sourceTree = "<group>"; };
+		BACBC81E1D23A41A0031F0A5 /* EightDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EightDemoViewController.m; sourceTree = "<group>"; };
+		BACBC8221D23A47A0031F0A5 /* ZJLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLabel.h; sourceTree = "<group>"; };
+		BACBC8231D23A47A0031F0A5 /* ZJLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLabel.m; sourceTree = "<group>"; };
 		BAE0B6251D15369D0064939D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		BAE0B6261D15369D0064939D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		C176DC1CD1BF58876567ABA6 /* Pods-SWSPractiseDemo_First.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWSPractiseDemo_First.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWSPractiseDemo_First/Pods-SWSPractiseDemo_First.debug.xcconfig"; sourceTree = "<group>"; };
@@ -405,6 +415,7 @@
 				BA7140F21D17F37800C7D936 /* FiveDemo */,
 				BA9A245E1D1A427E0091FD24 /* SixDemo */,
 				BA17F3C61D1D79C300B203FD /* SeventhDemo */,
+				BACBC81C1D23A3F80031F0A5 /* EightDemo */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -455,6 +466,17 @@
 				BAC57B891D12FD62004AC0F4 /* clock.png */,
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		BACBC81C1D23A3F80031F0A5 /* EightDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BACBC8221D23A47A0031F0A5 /* ZJLabel.h */,
+				BACBC8231D23A47A0031F0A5 /* ZJLabel.m */,
+				BACBC81D1D23A41A0031F0A5 /* EightDemoViewController.h */,
+				BACBC81E1D23A41A0031F0A5 /* EightDemoViewController.m */,
+			);
+			path = EightDemo;
 			sourceTree = "<group>";
 		};
 		BAE0B6241D1536800064939D /* SecondDemo */ = {
@@ -775,9 +797,11 @@
 				BA6586C81D12ED4800E4B711 /* UIViewController+addFresh.m in Sources */,
 				BA9A24611D1A427E0091FD24 /* SixDemoViewController.m in Sources */,
 				BA0D683A1D12F339004ED031 /* UINavigationController+StatusBar.m in Sources */,
+				BACBC8241D23A47A0031F0A5 /* ZJLabel.m in Sources */,
 				BA17F3C91D1D79D600B203FD /* xuanfuwu.m in Sources */,
 				BA6586CB1D12ED4800E4B711 /* UIViewController+addTablew.m in Sources */,
 				BA0D682E1D12F339004ED031 /* DetailViewController.m in Sources */,
+				BACBC81F1D23A41A0031F0A5 /* EightDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -811,9 +835,11 @@
 				BA6586C91D12ED4800E4B711 /* UIViewController+addFresh.m in Sources */,
 				BA9A24621D1A427E0091FD24 /* SixDemoViewController.m in Sources */,
 				BA0D683B1D12F339004ED031 /* UINavigationController+StatusBar.m in Sources */,
+				BACBC8251D23A47A0031F0A5 /* ZJLabel.m in Sources */,
 				BA17F3CA1D1D79D600B203FD /* xuanfuwu.m in Sources */,
 				BA6586CC1D12ED4800E4B711 /* UIViewController+addTablew.m in Sources */,
 				BA0D682F1D12F339004ED031 /* DetailViewController.m in Sources */,
+				BACBC8201D23A41A0031F0A5 /* EightDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -847,9 +873,11 @@
 				BA6586CA1D12ED4800E4B711 /* UIViewController+addFresh.m in Sources */,
 				BA9A24631D1A427E0091FD24 /* SixDemoViewController.m in Sources */,
 				BA0D683C1D12F339004ED031 /* UINavigationController+StatusBar.m in Sources */,
+				BACBC8261D23A47A0031F0A5 /* ZJLabel.m in Sources */,
 				BA17F3CB1D1D79D600B203FD /* xuanfuwu.m in Sources */,
 				BA6586CD1D12ED4800E4B711 /* UIViewController+addTablew.m in Sources */,
 				BA0D68301D12F339004ED031 /* DetailViewController.m in Sources */,
+				BACBC8211D23A41A0031F0A5 /* EightDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
