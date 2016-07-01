@@ -32,8 +32,8 @@
                              @"SixDemoViewController",
                              @"SevenDemoViewController",
                              @"EightDemoViewController",
-                             @"FirstViewController",
-                             @"FirstViewController",
+                             @"NineDemoViewController",
+                             @"TemDemoViewController",
                              @"FirstViewController",
                              @"FirstViewController",
                              @"FirstViewController",
@@ -52,8 +52,8 @@
                                   @"5" : @"ReactiveCocoa的练习",
                                   @"6" : @"悬浮物View的demo",
                                   @"7" : @"波浪动画的Demo",
-                                  @"8" : @"时钟转动有动画和没有动画",
-                                  @"9" : @"时钟转动有动画和没有动画",
+                                  @"8" : @"zip的解压demo",
+                                  @"9" : @"关于Cookie的Demo",
                                   @"10" : @"第二个demo",
                                   @"11" : @"时钟转动有动画和没有动画",
                                   @"12" : @"第二个demo",
@@ -136,9 +136,19 @@
     NSString *className = self.dataSourceArray[indexString.integerValue];
     Class class = NSClassFromString(className);
     id viewController = [[class alloc] init];
+    
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wundeclared-selector"
+    
     if ([viewController respondsToSelector:@selector(setNumber:)]) {
         [viewController setValue:indexString forKey:@"number"];
     }
+#pragma clang diagnostic pop
+
+    
+    NSString *index = [NSString stringWithFormat:@"%ld", indexPath.section];
+    NSString *string = self.dataSourceDictionary[index];
+    [viewController setValue:string forKey:@"title"];
     [self.navigationController pushViewController:viewController animated:YES];
     
 }

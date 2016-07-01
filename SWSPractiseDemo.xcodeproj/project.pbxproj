@@ -48,6 +48,12 @@
 		BA3F0CF71D179EDC00F1C998 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3F0CF61D179EDC00F1C998 /* ThirdViewController.m */; };
 		BA3F0CF81D179EDC00F1C998 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3F0CF61D179EDC00F1C998 /* ThirdViewController.m */; };
 		BA3F0CF91D179EDC00F1C998 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3F0CF61D179EDC00F1C998 /* ThirdViewController.m */; };
+		BA59D6C31D255F2B006D3EEF /* NineDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA59D6C21D255F2B006D3EEF /* NineDemoViewController.m */; };
+		BA59D6C41D255F2B006D3EEF /* NineDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA59D6C21D255F2B006D3EEF /* NineDemoViewController.m */; };
+		BA59D6C51D255F2B006D3EEF /* NineDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA59D6C21D255F2B006D3EEF /* NineDemoViewController.m */; };
+		BA59D6CA1D264F0B006D3EEF /* TemDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA59D6C91D264F0B006D3EEF /* TemDemoViewController.m */; };
+		BA59D6CB1D264F0B006D3EEF /* TemDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA59D6C91D264F0B006D3EEF /* TemDemoViewController.m */; };
+		BA59D6CC1D264F0B006D3EEF /* TemDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA59D6C91D264F0B006D3EEF /* TemDemoViewController.m */; };
 		BA6586BC1D12ED4800E4B711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA65864D1D12ED4800E4B711 /* Assets.xcassets */; };
 		BA6586BD1D12ED4800E4B711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA65864D1D12ED4800E4B711 /* Assets.xcassets */; };
 		BA6586BE1D12ED4800E4B711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA65864D1D12ED4800E4B711 /* Assets.xcassets */; };
@@ -152,6 +158,10 @@
 		BA2145091D12E47C00767A46 /* SWSPractiseDemo_Third.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWSPractiseDemo_Third.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA3F0CF51D179EDC00F1C998 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		BA3F0CF61D179EDC00F1C998 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		BA59D6C11D255F2B006D3EEF /* NineDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NineDemoViewController.h; sourceTree = "<group>"; };
+		BA59D6C21D255F2B006D3EEF /* NineDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NineDemoViewController.m; sourceTree = "<group>"; };
+		BA59D6C81D264F0B006D3EEF /* TemDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemDemoViewController.h; sourceTree = "<group>"; };
+		BA59D6C91D264F0B006D3EEF /* TemDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemDemoViewController.m; sourceTree = "<group>"; };
 		BA65864D1D12ED4800E4B711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA65864F1D12ED4800E4B711 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		BA6586501D12ED4800E4B711 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
@@ -358,6 +368,24 @@
 			path = ThirdDemo;
 			sourceTree = "<group>";
 		};
+		BA59D6C01D253BC9006D3EEF /* NineDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BA59D6C11D255F2B006D3EEF /* NineDemoViewController.h */,
+				BA59D6C21D255F2B006D3EEF /* NineDemoViewController.m */,
+			);
+			path = NineDemo;
+			sourceTree = "<group>";
+		};
+		BA59D6C71D264EF3006D3EEF /* TenDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BA59D6C81D264F0B006D3EEF /* TemDemoViewController.h */,
+				BA59D6C91D264F0B006D3EEF /* TemDemoViewController.m */,
+			);
+			path = TenDemo;
+			sourceTree = "<group>";
+		};
 		BA65864E1D12ED4800E4B711 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -416,6 +444,8 @@
 				BA9A245E1D1A427E0091FD24 /* SixDemo */,
 				BA17F3C61D1D79C300B203FD /* SeventhDemo */,
 				BACBC81C1D23A3F80031F0A5 /* EightDemo */,
+				BA59D6C01D253BC9006D3EEF /* NineDemo */,
+				BA59D6C71D264EF3006D3EEF /* TenDemo */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -772,6 +802,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2144DF1D12E47300767A46 /* SWSPractiseDemo.xcdatamodeld in Sources */,
+				BA59D6C31D255F2B006D3EEF /* NineDemoViewController.m in Sources */,
 				BA6586C21D12ED4800E4B711 /* NSDictionary+JSONString.m in Sources */,
 				BA3F0CF71D179EDC00F1C998 /* ThirdViewController.m in Sources */,
 				BA6586BF1D12ED4800E4B711 /* BaseViewController.m in Sources */,
@@ -796,6 +827,7 @@
 				BA6587971D12ED4800E4B711 /* UIView+MGO.m in Sources */,
 				BA6586C81D12ED4800E4B711 /* UIViewController+addFresh.m in Sources */,
 				BA9A24611D1A427E0091FD24 /* SixDemoViewController.m in Sources */,
+				BA59D6CA1D264F0B006D3EEF /* TemDemoViewController.m in Sources */,
 				BA0D683A1D12F339004ED031 /* UINavigationController+StatusBar.m in Sources */,
 				BACBC8241D23A47A0031F0A5 /* ZJLabel.m in Sources */,
 				BA17F3C91D1D79D600B203FD /* xuanfuwu.m in Sources */,
@@ -810,6 +842,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2144EE1D12E47900767A46 /* SWSPractiseDemo.xcdatamodeld in Sources */,
+				BA59D6C41D255F2B006D3EEF /* NineDemoViewController.m in Sources */,
 				BA6586C31D12ED4800E4B711 /* NSDictionary+JSONString.m in Sources */,
 				BA3F0CF81D179EDC00F1C998 /* ThirdViewController.m in Sources */,
 				BA6586C01D12ED4800E4B711 /* BaseViewController.m in Sources */,
@@ -834,6 +867,7 @@
 				BA6587981D12ED4800E4B711 /* UIView+MGO.m in Sources */,
 				BA6586C91D12ED4800E4B711 /* UIViewController+addFresh.m in Sources */,
 				BA9A24621D1A427E0091FD24 /* SixDemoViewController.m in Sources */,
+				BA59D6CB1D264F0B006D3EEF /* TemDemoViewController.m in Sources */,
 				BA0D683B1D12F339004ED031 /* UINavigationController+StatusBar.m in Sources */,
 				BACBC8251D23A47A0031F0A5 /* ZJLabel.m in Sources */,
 				BA17F3CA1D1D79D600B203FD /* xuanfuwu.m in Sources */,
@@ -848,6 +882,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2144FE1D12E47C00767A46 /* SWSPractiseDemo.xcdatamodeld in Sources */,
+				BA59D6C51D255F2B006D3EEF /* NineDemoViewController.m in Sources */,
 				BA6586C41D12ED4800E4B711 /* NSDictionary+JSONString.m in Sources */,
 				BA3F0CF91D179EDC00F1C998 /* ThirdViewController.m in Sources */,
 				BA6586C11D12ED4800E4B711 /* BaseViewController.m in Sources */,
@@ -872,6 +907,7 @@
 				BA6587991D12ED4800E4B711 /* UIView+MGO.m in Sources */,
 				BA6586CA1D12ED4800E4B711 /* UIViewController+addFresh.m in Sources */,
 				BA9A24631D1A427E0091FD24 /* SixDemoViewController.m in Sources */,
+				BA59D6CC1D264F0B006D3EEF /* TemDemoViewController.m in Sources */,
 				BA0D683C1D12F339004ED031 /* UINavigationController+StatusBar.m in Sources */,
 				BACBC8261D23A47A0031F0A5 /* ZJLabel.m in Sources */,
 				BA17F3CB1D1D79D600B203FD /* xuanfuwu.m in Sources */,

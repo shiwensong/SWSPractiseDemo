@@ -62,7 +62,7 @@
     [button bk_whenTapped:^{
         
         FirstTableViewController *tableView = [[FirstTableViewController alloc] init];
-        tableView.title = @"demo列表";
+        tableView.title = @"demo列表demo列表demo列表demo列表demo列表";
         tableView.hidesBottomBarWhenPushed = YES;
         [ws.navigationController pushViewController:tableView animated:YES];
         

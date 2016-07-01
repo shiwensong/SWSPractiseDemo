@@ -29,6 +29,8 @@
 #import "BlocksKit.h"
 #import "MMPlaceHolder.h"
 #import "ReactiveCocoa.h"
+#import "AFNetworking.h"
+#import "ZipArchive.h"
 
 
 #endif

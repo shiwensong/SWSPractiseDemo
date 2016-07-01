@@ -53,6 +53,7 @@ PODS:
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
+  - SSZipArchive (1.2)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.6.3)
@@ -67,6 +68,7 @@ DEPENDENCIES:
   - pop (~> 1.0)
   - ReactiveCocoa (~> 2.5)
   - SDWebImage (~> 3.7.6)
+  - SSZipArchive (~> 1.2)
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
@@ -81,7 +83,8 @@ SPEC CHECKSUMS:
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SSZipArchive: 251093c65f98d6ea282c50bc404bfa631d9fd721
 
-PODFILE CHECKSUM: b27b46512955d4253b6c6830956cd555a787bd88
+PODFILE CHECKSUM: 8c5d03de3ead31e732c7b307cdaae1c998ee8b58
 
 COCOAPODS: 1.0.0.beta.4

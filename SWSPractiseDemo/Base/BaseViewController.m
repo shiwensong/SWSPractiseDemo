@@ -157,6 +157,7 @@
     UIBarButtonItem *barButtonItem  = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"NavBack"] style:UIBarButtonItemStyleBordered target:self action:@selector(baseButtonActionOnClick:)];
     UIBarButtonItem * fix = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:self action:@selector(baseButtonActionOnClick:)];
     fix.width = -10;
+    barButtonItem.width = 20;
 //    barButtonItem.imageInsets = UIEdgeInsetsMake(- 50, 0, 0,0 );
     self.customLeftBarButtonBackBlcok = backBlcok;
     self.navigationItem.leftBarButtonItems = @[fix,barButtonItem];

@@ -34,6 +34,12 @@ pod 'IQKeyboardManager','~>3.3.4'
 #在UI上面显示Size大小
 pod 'MMPlaceHolder', '~> 1.9'
 
+# zip解压
+#pod 'ZipArchive', '~> 1.4.0'
+
+pod 'SSZipArchive', '~> 1.2'
+
+
 end
 #end
 
