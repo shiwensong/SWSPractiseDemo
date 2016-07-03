@@ -8,7 +8,7 @@
 
 #import "TemDemoViewController.h"
 
-@interface TemDemoViewController ()
+@interface TemDemoViewController () <UIWebViewDelegate>
 
 @end
 
@@ -16,7 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    UIWebView *webView = [[UIWebView alloc] init];
+    [self.view addSubview:webView];
+    WS(ws);
+    [webView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(ws.view);
+    }];
+    NSURL *url = [NSURL URLWithString:@"https://www.baidu.com"];
+    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
+    [webView loadRequest:request];
+    
+    webView.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +35,50 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
+#pragma mark - UIWebView获取Cookie
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+// 工厂类中存储cookie的方法
++ (void)saveCookies {
+    // 创建一个可变字典存放cookie
+    NSMutableDictionary *fromappDict = [NSMutableDictionary dictionary];
+    [fromappDict setObject:@"fromapp" forKey:NSHTTPCookieName];
+    [fromappDict setObject:@"ios" forKey:NSHTTPCookieValue];
+    // kDomain是公司app网址
+    NSString *kDomain = @"https://www.baidu.com";
+    [fromappDict setObject:kDomain forKey:NSHTTPCookieDomain];
+    [fromappDict setObject:kDomain forKey:NSHTTPCookieOriginURL];
+    [fromappDict setObject:@"/" forKey:NSHTTPCookiePath];
+    [fromappDict setObject:@"0" forKey:NSHTTPCookieVersion];
+    
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    [params setValue:@"shiwensong" forKey:@"name"];
+    [params setValue:@"23" forKey:@"age"];
+    [params setValue:@"choongqing" forKey:@"address"];
+
+
+    // 将可变字典转化为cookie
+    NSHTTPCookie *cookie = [NSHTTPCookie cookieWithProperties:params];
+    
+    // 获取cookieStorage
+    NSHTTPCookieStorage *cookieStorage = [NSHTTPCookieStorage sharedHTTPCookieStorage];
+    
+    // 存储cookie
+    [cookieStorage setCookie:cookie];
 }
-*/
+
+#pragma mark - UIWebViewDelegate
+
+- (void)webViewDidStartLoad:(UIWebView *)webView{
+    
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView{
+    
+}
+
+
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error{
+    
+}
 
 @end
