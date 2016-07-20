@@ -93,6 +93,24 @@
 		BA7140F51D17F38900C7D936 /* FiveDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7140F41D17F38900C7D936 /* FiveDemoViewController.m */; };
 		BA7140F61D17F38900C7D936 /* FiveDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7140F41D17F38900C7D936 /* FiveDemoViewController.m */; };
 		BA7140F71D17F38900C7D936 /* FiveDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7140F41D17F38900C7D936 /* FiveDemoViewController.m */; };
+		BA8742241D3CDE2D0040AE50 /* ElevenDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8742231D3CDE2D0040AE50 /* ElevenDemoViewController.m */; };
+		BA8742251D3CDE2D0040AE50 /* ElevenDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8742231D3CDE2D0040AE50 /* ElevenDemoViewController.m */; };
+		BA8742261D3CDE2D0040AE50 /* ElevenDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8742231D3CDE2D0040AE50 /* ElevenDemoViewController.m */; };
+		BA87422A1D3E0C240040AE50 /* TwelveDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8742291D3E0C240040AE50 /* TwelveDemoViewController.m */; };
+		BA87422B1D3E0C240040AE50 /* TwelveDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8742291D3E0C240040AE50 /* TwelveDemoViewController.m */; };
+		BA87422C1D3E0C240040AE50 /* TwelveDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8742291D3E0C240040AE50 /* TwelveDemoViewController.m */; };
+		BA8742351D3E0C580040AE50 /* QRCameraSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA87422F1D3E0C580040AE50 /* QRCameraSwitchButton.m */; };
+		BA8742361D3E0C580040AE50 /* QRCameraSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA87422F1D3E0C580040AE50 /* QRCameraSwitchButton.m */; };
+		BA8742371D3E0C580040AE50 /* QRCameraSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA87422F1D3E0C580040AE50 /* QRCameraSwitchButton.m */; };
+		BA8742381D3E0C580040AE50 /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8742321D3E0C580040AE50 /* QRCodeReaderView.m */; };
+		BA8742391D3E0C580040AE50 /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8742321D3E0C580040AE50 /* QRCodeReaderView.m */; };
+		BA87423A1D3E0C580040AE50 /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8742321D3E0C580040AE50 /* QRCodeReaderView.m */; };
+		BA87423B1D3E0C580040AE50 /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8742341D3E0C580040AE50 /* QRCodeReaderViewController.m */; };
+		BA87423C1D3E0C580040AE50 /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8742341D3E0C580040AE50 /* QRCodeReaderViewController.m */; };
+		BA87423D1D3E0C580040AE50 /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8742341D3E0C580040AE50 /* QRCodeReaderViewController.m */; };
+		BA8742401D3E12940040AE50 /* ElevenDemoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA87423F1D3E12940040AE50 /* ElevenDemoDetailViewController.m */; };
+		BA8742411D3E12940040AE50 /* ElevenDemoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA87423F1D3E12940040AE50 /* ElevenDemoDetailViewController.m */; };
+		BA8742421D3E12940040AE50 /* ElevenDemoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA87423F1D3E12940040AE50 /* ElevenDemoDetailViewController.m */; };
 		BA9A24611D1A427E0091FD24 /* SixDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A24601D1A427E0091FD24 /* SixDemoViewController.m */; };
 		BA9A24621D1A427E0091FD24 /* SixDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A24601D1A427E0091FD24 /* SixDemoViewController.m */; };
 		BA9A24631D1A427E0091FD24 /* SixDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A24601D1A427E0091FD24 /* SixDemoViewController.m */; };
@@ -190,6 +208,19 @@
 		BA6587A61D12F09900E4B711 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		BA7140F31D17F38900C7D936 /* FiveDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveDemoViewController.h; sourceTree = "<group>"; };
 		BA7140F41D17F38900C7D936 /* FiveDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveDemoViewController.m; sourceTree = "<group>"; };
+		BA8742221D3CDE2D0040AE50 /* ElevenDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElevenDemoViewController.h; sourceTree = "<group>"; };
+		BA8742231D3CDE2D0040AE50 /* ElevenDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElevenDemoViewController.m; sourceTree = "<group>"; };
+		BA8742281D3E0C240040AE50 /* TwelveDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwelveDemoViewController.h; sourceTree = "<group>"; };
+		BA8742291D3E0C240040AE50 /* TwelveDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwelveDemoViewController.m; sourceTree = "<group>"; };
+		BA87422E1D3E0C580040AE50 /* QRCameraSwitchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCameraSwitchButton.h; sourceTree = "<group>"; };
+		BA87422F1D3E0C580040AE50 /* QRCameraSwitchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCameraSwitchButton.m; sourceTree = "<group>"; };
+		BA8742301D3E0C580040AE50 /* QRCodeReaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderDelegate.h; sourceTree = "<group>"; };
+		BA8742311D3E0C580040AE50 /* QRCodeReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderView.h; sourceTree = "<group>"; };
+		BA8742321D3E0C580040AE50 /* QRCodeReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderView.m; sourceTree = "<group>"; };
+		BA8742331D3E0C580040AE50 /* QRCodeReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderViewController.h; sourceTree = "<group>"; };
+		BA8742341D3E0C580040AE50 /* QRCodeReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderViewController.m; sourceTree = "<group>"; };
+		BA87423E1D3E12940040AE50 /* ElevenDemoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElevenDemoDetailViewController.h; sourceTree = "<group>"; };
+		BA87423F1D3E12940040AE50 /* ElevenDemoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElevenDemoDetailViewController.m; sourceTree = "<group>"; };
 		BA9A245F1D1A427E0091FD24 /* SixDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixDemoViewController.h; sourceTree = "<group>"; };
 		BA9A24601D1A427E0091FD24 /* SixDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixDemoViewController.m; sourceTree = "<group>"; };
 		BABE06251D1D83C100C19F5C /* TabbarIconMoney@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabbarIconMoney@2x.png"; sourceTree = "<group>"; };
@@ -446,6 +477,8 @@
 				BACBC81C1D23A3F80031F0A5 /* EightDemo */,
 				BA59D6C01D253BC9006D3EEF /* NineDemo */,
 				BA59D6C71D264EF3006D3EEF /* TenDemo */,
+				BA8742211D3CDE1C0040AE50 /* ElevenDemo */,
+				BA8742271D3E0C050040AE50 /* TwelveDemo */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -468,6 +501,41 @@
 				BA7140F41D17F38900C7D936 /* FiveDemoViewController.m */,
 			);
 			path = FiveDemo;
+			sourceTree = "<group>";
+		};
+		BA8742211D3CDE1C0040AE50 /* ElevenDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BA8742221D3CDE2D0040AE50 /* ElevenDemoViewController.h */,
+				BA8742231D3CDE2D0040AE50 /* ElevenDemoViewController.m */,
+				BA87423E1D3E12940040AE50 /* ElevenDemoDetailViewController.h */,
+				BA87423F1D3E12940040AE50 /* ElevenDemoDetailViewController.m */,
+			);
+			path = ElevenDemo;
+			sourceTree = "<group>";
+		};
+		BA8742271D3E0C050040AE50 /* TwelveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BA87422D1D3E0C580040AE50 /* QRCodeReaderViewController */,
+				BA8742281D3E0C240040AE50 /* TwelveDemoViewController.h */,
+				BA8742291D3E0C240040AE50 /* TwelveDemoViewController.m */,
+			);
+			path = TwelveDemo;
+			sourceTree = "<group>";
+		};
+		BA87422D1D3E0C580040AE50 /* QRCodeReaderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA87422E1D3E0C580040AE50 /* QRCameraSwitchButton.h */,
+				BA87422F1D3E0C580040AE50 /* QRCameraSwitchButton.m */,
+				BA8742301D3E0C580040AE50 /* QRCodeReaderDelegate.h */,
+				BA8742311D3E0C580040AE50 /* QRCodeReaderView.h */,
+				BA8742321D3E0C580040AE50 /* QRCodeReaderView.m */,
+				BA8742331D3E0C580040AE50 /* QRCodeReaderViewController.h */,
+				BA8742341D3E0C580040AE50 /* QRCodeReaderViewController.m */,
+			);
+			path = QRCodeReaderViewController;
 			sourceTree = "<group>";
 		};
 		BA9A245E1D1A427E0091FD24 /* SixDemo */ = {
@@ -808,6 +876,7 @@
 				BA6586BF1D12ED4800E4B711 /* BaseViewController.m in Sources */,
 				BA6587AA1D12F09900E4B711 /* FirstViewController.m in Sources */,
 				BA0D68341D12F339004ED031 /* TempViewController.m in Sources */,
+				BA8742351D3E0C580040AE50 /* QRCameraSwitchButton.m in Sources */,
 				BA2144D31D12E47300767A46 /* main.m in Sources */,
 				BA7140F51D17F38900C7D936 /* FiveDemoViewController.m in Sources */,
 				BA6586D11D12ED4800E4B711 /* CustomView.m in Sources */,
@@ -817,6 +886,9 @@
 				BA0D683D1D12F339004ED031 /* ViewController.m in Sources */,
 				BA0D682B1D12F339004ED031 /* AppDelegate.m in Sources */,
 				BA17F3CE1D1D7A2B00B203FD /* SevenDemoViewController.m in Sources */,
+				BA87422A1D3E0C240040AE50 /* TwelveDemoViewController.m in Sources */,
+				BA8742401D3E12940040AE50 /* ElevenDemoDetailViewController.m in Sources */,
+				BA8742241D3CDE2D0040AE50 /* ElevenDemoViewController.m in Sources */,
 				BAC57B8D1D12FD62004AC0F4 /* HYBClockView.m in Sources */,
 				BA0D68311D12F339004ED031 /* TempTableViewController.m in Sources */,
 				BA6587941D12ED4800E4B711 /* MGOImageView.m in Sources */,
@@ -824,6 +896,8 @@
 				BAC57B8A1D12FD62004AC0F4 /* HYBAnimationClock.m in Sources */,
 				BA0D68371D12F339004ED031 /* TestViewController.m in Sources */,
 				BA0829531D17CA7F00E6FBB6 /* FourViewController.m in Sources */,
+				BA8742381D3E0C580040AE50 /* QRCodeReaderView.m in Sources */,
+				BA87423B1D3E0C580040AE50 /* QRCodeReaderViewController.m in Sources */,
 				BA6587971D12ED4800E4B711 /* UIView+MGO.m in Sources */,
 				BA6586C81D12ED4800E4B711 /* UIViewController+addFresh.m in Sources */,
 				BA9A24611D1A427E0091FD24 /* SixDemoViewController.m in Sources */,
@@ -848,6 +922,7 @@
 				BA6586C01D12ED4800E4B711 /* BaseViewController.m in Sources */,
 				BA6587AB1D12F09900E4B711 /* FirstViewController.m in Sources */,
 				BA0D68351D12F339004ED031 /* TempViewController.m in Sources */,
+				BA8742361D3E0C580040AE50 /* QRCameraSwitchButton.m in Sources */,
 				BA2144F01D12E47900767A46 /* main.m in Sources */,
 				BA7140F61D17F38900C7D936 /* FiveDemoViewController.m in Sources */,
 				BA6586D21D12ED4800E4B711 /* CustomView.m in Sources */,
@@ -857,6 +932,9 @@
 				BA0D683E1D12F339004ED031 /* ViewController.m in Sources */,
 				BA0D682C1D12F339004ED031 /* AppDelegate.m in Sources */,
 				BA17F3CF1D1D7A2B00B203FD /* SevenDemoViewController.m in Sources */,
+				BA87422B1D3E0C240040AE50 /* TwelveDemoViewController.m in Sources */,
+				BA8742411D3E12940040AE50 /* ElevenDemoDetailViewController.m in Sources */,
+				BA8742251D3CDE2D0040AE50 /* ElevenDemoViewController.m in Sources */,
 				BAC57B8E1D12FD62004AC0F4 /* HYBClockView.m in Sources */,
 				BA0D68321D12F339004ED031 /* TempTableViewController.m in Sources */,
 				BA6587951D12ED4800E4B711 /* MGOImageView.m in Sources */,
@@ -864,6 +942,8 @@
 				BAC57B8B1D12FD62004AC0F4 /* HYBAnimationClock.m in Sources */,
 				BA0D68381D12F339004ED031 /* TestViewController.m in Sources */,
 				BA0829541D17CA7F00E6FBB6 /* FourViewController.m in Sources */,
+				BA8742391D3E0C580040AE50 /* QRCodeReaderView.m in Sources */,
+				BA87423C1D3E0C580040AE50 /* QRCodeReaderViewController.m in Sources */,
 				BA6587981D12ED4800E4B711 /* UIView+MGO.m in Sources */,
 				BA6586C91D12ED4800E4B711 /* UIViewController+addFresh.m in Sources */,
 				BA9A24621D1A427E0091FD24 /* SixDemoViewController.m in Sources */,
@@ -888,6 +968,7 @@
 				BA6586C11D12ED4800E4B711 /* BaseViewController.m in Sources */,
 				BA6587AC1D12F09900E4B711 /* FirstViewController.m in Sources */,
 				BA0D68361D12F339004ED031 /* TempViewController.m in Sources */,
+				BA8742371D3E0C580040AE50 /* QRCameraSwitchButton.m in Sources */,
 				BA2145001D12E47C00767A46 /* main.m in Sources */,
 				BA7140F71D17F38900C7D936 /* FiveDemoViewController.m in Sources */,
 				BA6586D31D12ED4800E4B711 /* CustomView.m in Sources */,
@@ -897,6 +978,9 @@
 				BA0D683F1D12F339004ED031 /* ViewController.m in Sources */,
 				BA0D682D1D12F339004ED031 /* AppDelegate.m in Sources */,
 				BA17F3D01D1D7A2B00B203FD /* SevenDemoViewController.m in Sources */,
+				BA87422C1D3E0C240040AE50 /* TwelveDemoViewController.m in Sources */,
+				BA8742421D3E12940040AE50 /* ElevenDemoDetailViewController.m in Sources */,
+				BA8742261D3CDE2D0040AE50 /* ElevenDemoViewController.m in Sources */,
 				BAC57B8F1D12FD62004AC0F4 /* HYBClockView.m in Sources */,
 				BA0D68331D12F339004ED031 /* TempTableViewController.m in Sources */,
 				BA6587961D12ED4800E4B711 /* MGOImageView.m in Sources */,
@@ -904,6 +988,8 @@
 				BAC57B8C1D12FD62004AC0F4 /* HYBAnimationClock.m in Sources */,
 				BA0D68391D12F339004ED031 /* TestViewController.m in Sources */,
 				BA0829551D17CA7F00E6FBB6 /* FourViewController.m in Sources */,
+				BA87423A1D3E0C580040AE50 /* QRCodeReaderView.m in Sources */,
+				BA87423D1D3E0C580040AE50 /* QRCodeReaderViewController.m in Sources */,
 				BA6587991D12ED4800E4B711 /* UIView+MGO.m in Sources */,
 				BA6586CA1D12ED4800E4B711 /* UIViewController+addFresh.m in Sources */,
 				BA9A24631D1A427E0091FD24 /* SixDemoViewController.m in Sources */,

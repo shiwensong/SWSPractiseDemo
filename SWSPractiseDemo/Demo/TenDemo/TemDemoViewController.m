@@ -17,17 +17,38 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    UIWebView *webView = [[UIWebView alloc] init];
-    [self.view addSubview:webView];
-    WS(ws);
-    [webView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(ws.view);
-    }];
-    NSURL *url = [NSURL URLWithString:@"https://www.baidu.com"];
-    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
-    [webView loadRequest:request];
     
-    webView.delegate = self;
+    //1.管理器
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    [dict setObject:@"ios" forKey:@"deviceType"];
+    [dict setObject:@"18996601418" forKey:@"phone"];
+    [dict setObject:@"30" forKey:@"version"];
+    
+    
+    
+    //3.请求
+    [manager GET:@"http://www.fanaer56.com/api/customer/regSmsAuthCode" parameters:dict success: ^(AFHTTPRequestOperation *operation, id responseObject) {
+        NSLog(@"GET --> %@, %@", responseObject, [NSThread currentThread]); //自动返回主线程
+        
+    } failure: ^(AFHTTPRequestOperation *operation, NSError *error) {
+        
+        NSLog(@"%@", error);
+    }];
+    
+    
+    
+//    UIWebView *webView = [[UIWebView alloc] init];
+//    [self.view addSubview:webView];
+//    WS(ws);
+//    [webView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.edges.equalTo(ws.view);
+//    }];
+//    NSURL *url = [NSURL URLWithString:@"https://www.baidu.com"];
+//    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
+//    [webView loadRequest:request];
+//    
+//    webView.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {
